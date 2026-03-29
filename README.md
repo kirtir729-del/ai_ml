@@ -7,8 +7,6 @@
 **Branch:** CSE (Health Informatics)  
 **Year:** First Year B.Tech  
 
----
-
 ## Introduction  
 
 This repository contains my **AI-Based Productivity Analyzer**, developed as part of the **Bring Your Own Project (BYOP)**.  
@@ -17,15 +15,11 @@ The objective of this project is to analyze a user’s daily activities and dete
 
 The project uses an **AI-inspired rule-based approach** to simulate intelligent decision-making and provide meaningful feedback.
 
----
-
 ## Problem Statement  
 
 In today’s fast-paced digital environment, students often struggle to evaluate how effectively they utilize their time. Without proper reflection, it becomes difficult to improve productivity and maintain discipline.  
 
 This project addresses this issue by providing a simple and interactive system that analyzes daily activities and offers insights into productivity levels.
-
----
 
 ## Objectives  
 
@@ -34,8 +28,6 @@ This project addresses this issue by providing a simple and interactive system t
 - To provide feedback for improving daily habits  
 - To design a simple and user-friendly interface  
 - To apply problem-solving using real-world scenarios  
-
----
 
 ## Project Structure  
 
@@ -93,9 +85,49 @@ The system follows a rule-based approach that simulates basic Artificial Intelli
   - Lazy  
 - Score-based evaluation  
 - Personalized suggestions  
-- Simple and intuitive user interface  
+- Simple and intuitive user interface
+- Setup and Execution Guide
+This is a Setup and Execution Guide to help you understand how to execute the AI-Based Productivity Analyzer on your system.
+Prerequisites
+To run this project, you will need:
+A web browser:
+Google Chrome
+Microsoft Edge
+Mozilla Firefox
+Git:
+Git is optional.
+Installation
+Method 1: Clone using Git (Recommended)
 
----
+Open the terminal or command prompt and execute the following command in the terminal:
+git clone https://github.com/kirtir729-del/ai-productivity-analyzer.git
+
+
+Navigate to the directory:
+cd ai-productivity-analyzer
+
+
+Since it's a frontend-based web application, we don't need to do anything else.
+Steps:
+Find the following file:
+index.html
+Double-click the file
+OR
+Right-click and select Open with and then select the browser.
+How to Use
+To run this application, you will need to:
+Enter your daily activities in the input field.
+Click on the button labeled "Analyze".
+To get the result:
+Productivity level
+Score
+Suggestions to improve.
+Quick Run (One-Line Method)
+
+To run the code, execute the following command in the terminal:
+start index.html
+
+
 
 ## Technologies Used  
 
@@ -103,14 +135,10 @@ The system follows a rule-based approach that simulates basic Artificial Intelli
 - CSS for styling  
 - JavaScript for logic and analysis  
 
----
-
 ## System Requirements  
 
 - A web browser (Chrome, Edge, Firefox, etc.)  
 - No additional software installation required  
-
----
 
 ## Installation and Execution  
 
