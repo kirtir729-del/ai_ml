@@ -1,77 +1,95 @@
-1.AI-Based Productivity Analyzer
+AI-Based Productivity Analyzer
+BYOP (Bring Your Own Project)
+Project Overview
 
-	A simple AI-inspired web application that analyzes a person's daily routine and determines whether the day was Productive, Moderate, or Lazy. The application evaluates work/study hours, exercise, sleep, screen time, and completed goals, then gives a productivity score out of 100.
+The AI-Based Productivity Analyzer is a web-based application designed to evaluate a user's daily routine and determine their productivity level. By analyzing factors such as work/study hours, exercise, sleep, screen time, and goals completed, the system generates a productivity score and classifies the day accordingly.
 
+This project demonstrates the practical application of AI-inspired rule-based logic to simulate intelligent decision-making in a simple and accessible way.
 
-2.Features
+Objective
 
--AI-inspired rule-based productivity analysis
--Real-time score calculation
--Classification into Productive, Moderate, or Lazy
--Personalized suggestions
--Modern dark-themed interface
--Runs completely in the browser
+The key objectives of this project are:
 
+To assess daily productivity using measurable parameters
+To implement a rule-based scoring system
+To classify productivity levels into meaningful categories
+To provide actionable suggestions for improvement
+To showcase the use of basic AI concepts in web development
+Features
+AI-inspired rule-based productivity analysis
+Real-time score calculation (out of 100)
+Productivity classification:
+Productive
+Moderate
+Lazy
+Personalized improvement suggestions
+Modern dark-themed user interface
+Fully browser-based application (no backend required)
+Technologies Used
+HTML – Structure of the application
+CSS – Styling and layout
+JavaScript – Logic and productivity analysis
+Project Structure
+AI-Based Productivity Analyzer/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+Methodology
 
-3.Project Structure
+The application collects user input based on daily activities:
 
--index.html
--style.css
--script.js
--README.md
+Study/Work Hours
+Exercise Hours
+Sleep Hours
+Screen Time
+Goals Completed
 
+These inputs are processed using predefined rules to calculate a productivity score.
 
-4.How the Project Works
+Scoring Logic
+Higher study/work hours increase the score
+Exercise contributes positively
+Optimal sleep (7–8 hours) improves productivity
+Completing more goals increases the score
+Excessive screen time decreases the score
+Productivity Classification
+Score Range	Category
+70–100	Productive
+40–69	Moderate
+0–39	Lazy
+Setup Instructions
+Create a folder named AI-Based Productivity Analyzer
+Inside the folder, create the following files:
+index.html
+style.css
+script.js
+README.md
+Add the respective code to each file
+Ensure all file extensions are correct (not .txt)
+Open index.html in any web browser
+How to Use
+Enter Study/Work Hours
+Enter Exercise Hours
+Enter Sleep Hours
+Enter Screen Time
+Enter Goals Completed
+Click the Analyze button
+View the productivity score, category, and suggestions
+Learning Outcomes
+Understanding of rule-based AI systems
+Hands-on experience with frontend development
+Improved logical thinking and problem-solving
+Ability to design user-centric applications
+Experience in documenting a technical project
+Future Enhancements
+Store user data using Local Storage
+Add charts and graphical analysis
+Implement user authentication
+Provide weekly and monthly reports
+Integrate machine learning for advanced predictions
 
-	The user enters study/work hours, exercise hours, sleep hours, screen time, and goals completed. The system calculates a score using rule-based logic.
-
-
-5.Scoring Logic
-
--More study/work hours increase the score
--Exercise increases the score
--7–8 hours of sleep increases the score
--Completing more goals increases the score
--High screen time decreases the score
-
-
-6.Final Classification
-
--70–100: Productive
--40–69: Moderate
--0–39: Lazy
-
-
-7.Setup Instructions
-
--Create a folder named 'AI-Based Productivity Analyzer'.
--Inside the folder create: index.html, style.css, script.js, and README.md.
--Write the HTML code into index.html, CSS code into style.css, and JavaScript code into script.js.
--Make sure that none of the files names does not end with “.txt”.
--Double-click index.html to run the project in your browser.
-
-
-8.How to Use
-
--Enter Study / Work Hours
--Enter Exercise Hours
--Enter Sleep Hours
--Enter Screen Time Hours
--Enter Goals Completed
--Click the Analyze button
--View the productivity level, score, and suggestion
-
-
-9.Future Improvements
-
--Save previous results using local storage
--Add charts and graphs
--Add a login system
--Add weekly and monthly productivity reports
--Use a real machine learning model
-
-10.Author
-
--Katyayani Roy(25BHI10102)
--B.Tech, Computer Science and Engineering (Health Informatics)
--VIT Bhopal University
+Name of author- Katyayani Roy
+25BHI10102
+VIT BHOPAL UNIVERSITY
