@@ -161,11 +161,46 @@ AI-Based Productivity Analyzer/
 ## Conclusion
 This project demonstrates how simple rule-based logic can be used to simulate AI and help users evaluate and improve their daily productivity.
 
-##AUTHOR##
-Katyayani Roy
-25BHI10102
-VIT BHOPAL UNIVERSITY
 
 ---
 
-## Project Structure
+## Setup Instructions
+1. Create a folder named `AI-Based Productivity Analyzer`  
+2. Add the following files:
+   - `index.html`  
+   - `style.css`  
+   - `script.js`  
+   - `README.md`  
+3. Copy the respective code into each file  
+4. Open `index.html` in a web browser  
+
+---
+
+## Usage
+1. Enter daily activity data  
+2. Click **Analyze**  
+3. View:
+   - Productivity Score  
+   - Category  
+   - Suggestions  
+
+---
+
+## Future Improvements
+- Local storage for saving data  
+- Charts and visualization  
+- User authentication  
+- Weekly and monthly reports  
+- Integration with machine learning models  
+
+---
+
+## Conclusion
+This project demonstrates how simple rule-based logic can be used to simulate AI and help users evaluate and improve their daily productivity.
+
+---
+
+## Author
+Katyayani Roy  
+B.Tech – Computer Science and Engineering (Health Informatics)  
+VIT Bhopal University  
